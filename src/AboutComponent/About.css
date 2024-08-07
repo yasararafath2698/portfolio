@@ -1,0 +1,33 @@
+.about {
+    background-image: url('../Assets/Img/YasarPic.jpg');
+    background-position: 50% 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 100vh;
+}
+
+.about__container {
+    position: absolute;
+    top: 200px;
+    right: 100px;
+}
+
+.about__container a {
+    color: white;
+    text-decoration: none;
+    background-color:#d9021c;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.about__container a:nth-child(even) {
+    margin-left: 10px !important;
+}
+
+.about__container p {
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
